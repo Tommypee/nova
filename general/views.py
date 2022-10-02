@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect, reverse
 from django.contrib.auth import login, logout
 
 from general.models import CustomUser
-from .forms import CustomUserForm
 from .email_backend import EmailBackend
 from django.contrib import messages
 
